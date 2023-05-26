@@ -3,13 +3,15 @@ import WelcomeHeader from "../compo/WelcomeHeader";
 import Cards from "../compo/Cards";
 import Hero from "../compo/Hero";
 import Footer from "../compo/Footer";
+import Body from "../compo/Body";
 
 const Home = () => {
   return (
     <>
-      <div className="bg-black w-screen ">
+      <div className="bg-black ">
         <WelcomeHeader />
         <Hero />
+        <Body />
         <Cards />
         <Footer />
       </div>
