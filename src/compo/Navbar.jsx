@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -18,23 +19,26 @@ const Navbar = () => {
               {/* <!-- Active Link = text-indigo-500
                   Inactive Link = hover:text-indigo-500 --> */}
               <li className="px-2 md:px-4 md:py-2 text-indigo-500">
-                <a href="#">HOME</a>
+                <NavLink to="/">HOME</NavLink>
               </li>
               <li className="px-2 md:px-4 md:py-2 hover:text-indigo-400">
-                <a href="#">BLOG</a>
+                {/* <a href="#">BLOG</a> */}
+                <NavLink to="/blog">BLOG</NavLink>
               </li>
               <li className="px-2 md:px-4 md:py-2 hover:text-indigo-400">
-                <a href="#">ABOUT</a>
+                {/* <a href="#">ABOUT</a> */}
+                <NavLink to="/about">ABOUT</NavLink>
               </li>
               <li className="px-2 md:px-4 md:py-2 hover:text-indigo-400">
-                <a href="#">CONTACT</a>
+                {/* <a href="#">CONTACT</a> */}
+                <NavLink to="/contact">CONTACT</NavLink>
               </li>
             </ul>
           </div>
           <div className="order-2 md:order-3">
             <button className="px-2 md:px-4 py-2 bg-indigo-500 hover:bg-indigo-600 text-gray-50 rounded-xl flex items-center gap-2">
               {/* <!-- Heroicons - Login Solid --> */}
-              <span>⚡ LOG IN</span>
+              <NavLink to="/login"><span>⚡ LOG IN</span></NavLink>
             </button>
           </div>
         </div>
@@ -44,3 +48,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
