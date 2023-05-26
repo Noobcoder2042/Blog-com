@@ -34,9 +34,10 @@ import React from "react";
 
 const Cards = () => {
   return (
-    <div className="w-screen">
-      <div>
-        <div className="grid gap-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 m-5">
+    <div>
+      <div className=" w-fit">
+        <h1 className=" text-white">Trading Blog Post</h1>
+        <div className="grid gap-3 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 m-5">
           {posts.map((item, key) => (
             <div className="w-full rounded-xl shadow-md bg-slate-200" key={key}>
               <img
