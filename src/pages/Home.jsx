@@ -8,7 +8,7 @@ import Body from "../compo/Body";
 const Home = () => {
   return (
     <>
-      <div className="bg-black ">
+      <div>
         <WelcomeHeader />
         <Hero />
         <Body />
