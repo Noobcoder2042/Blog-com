@@ -36,10 +36,12 @@ const Cards = () => {
   return (
     <div>
       <div className=" w-fit">
-        <h1 className=" text-white">Trading Blog Post</h1>
-        <div className="grid gap-3 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 m-5">
+        <h1 className="text-5xl font-bold leading-9 text-center text-gray-800  m-20">
+          Trading Blog Post
+        </h1>
+        <div className="grid gap-3 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 m-5 ">
           {posts.map((item, key) => (
-            <div className="w-full rounded-xl shadow-md bg-slate-200" key={key}>
+            <div className="w-full rounded-xl shadow-md  bg-white" key={key}>
               <img
                 className="object-cover w-full h-48 p-1 rounded-xl"
                 src={item.img}
@@ -50,9 +52,13 @@ const Cards = () => {
                 <h4 className="text-xl font-semibold text-blue-600">
                   {item.title}
                 </h4>
-                <p className="mb-2 leading-normal">{item.content}</p>
+                <p className="mb-2 leading-normal text-black ">
+                  {item.content}
+                </p>
                 {item.name && (
-                  <p className="mb-2 leading-normal">By {item.name}</p>
+                  <p className="mb-2 leading-normal text-white ">
+                    By {item.name}
+                  </p>
                 )}
 
                 <button className="px-4 py-2 text-sm text-blue-100 bg-indigo-500 hover:bg-indigo-800 rounded shadow">

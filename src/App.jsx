@@ -10,16 +10,14 @@ import { Login } from "./pages/Login";
 function App() {
   return (
     <div>
-      
       <Navbar />
-       <Routes>
-         <Route path="/" Component={Home}/>
-         <Route path="/about" Component={About}/>
-         <Route path="/blog" Component={Blog}/>
-         <Route path="/contact" Component={Contact}/>
-         <Route path="/login" Component={Login}/>
-       </Routes>
-     
+      <Routes>
+        <Route path="/" Component={Home} />
+        <Route path="/about" Component={About} />
+        <Route path="/blog" Component={Blog} />
+        <Route path="/contact" Component={Contact} />
+        <Route path="/login" Component={Login} />
+      </Routes>
     </div>
   );
 }

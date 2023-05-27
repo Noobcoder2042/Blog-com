@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-r from-indigo-500 ... text-white py-16 my-10 w-full">
+    <section className="bg-gradient-to-r  from-violet-500 to-indigo-500 text-white py-16 my-10 w-full drop-shadow-[0_25px_25px_rgba(0,0,0,0.35)]">
       <div className="container mx-auto text-center">
         <h1 className="text-4xl font-bold mb-4">Hi BlogComer 🙋🏼‍♂️</h1>
         <p className="text-lg mb-8">
