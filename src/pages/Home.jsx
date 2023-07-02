@@ -5,6 +5,7 @@ import Hero from "../compo/Hero";
 import Footer from "../compo/Footer";
 import Body from "../compo/Body";
 
+
 const Home = () => {
   return (
     <>
