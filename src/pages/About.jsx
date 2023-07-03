@@ -1,5 +1,6 @@
 import React from "react";
 import Faq from "../compo/Faq";
+import { TestMonials } from "../compo/TestMonials";
 
 export const About = () => {
   return (
@@ -36,6 +37,7 @@ export const About = () => {
         </p>
       </div>
       <Faq />
+      <TestMonials/>
     </>
   );
 };
