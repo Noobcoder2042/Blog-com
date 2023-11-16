@@ -14,7 +14,7 @@ export const About = () => {
         <p className="m-5 text-gray-500 dark:text-gray-400 w-3/4  hover:text-gray-600 cursor-pointer ">
           Introducing BlogCom: A Revolutionary Blogging Platform BlogCom is a
           groundbreaking blogging platform that redefines the way we create and
-          share content online. With its innovative features and user-friendly
+          share content online. With its innovative features and
           interface, BlogCom empowers bloggers and content creators to connect
           with their audience in a whole new way. At the heart of BlogCom is its
           intuitive and customizable editor, designed to make writing and
@@ -37,7 +37,7 @@ export const About = () => {
         </p>
       </div>
       <Faq />
-      <TestMonials/>
+      <TestMonials />
     </>
   );
 };
